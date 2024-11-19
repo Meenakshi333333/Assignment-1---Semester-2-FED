@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Grey Bar */
+.grey-bar {
+    background-color: #ccc; /* Light grey background */
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .grey-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .grey-bar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .grey-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .grey-bar ul li a:hover {
+    color: #007BFF; /* Blue color on hover */
+  }
+  
+  
+  .half-gradient {
+    background: linear-gradient(to bottom, blue, purple);
+    color: white;
+    padding: 2rem;
+    height: 30vh; /* Half of the page height */
+  }
+  
+  .half-gradient .logo h1 {
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .half-white {
+    background: white;
+    color: black;
+    padding: 2rem;
+  }
+  
+  .content-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .content-section h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  /* Collapsible Button Style */
+.collapsible {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .collapsible:hover {
+    background-color: purple;
+  }
+  
+  /* Collapsible Content Style */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+  }
+  
+  .content p {
+    margin: 10px 0;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
