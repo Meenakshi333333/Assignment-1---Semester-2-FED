@@ -1,0 +1,100 @@
+/* General styling for the header */
+header {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Container for the image and centered text */
+.container {
+    position: relative; /* Enables positioning of child elements */
+    display: inline-block; /* Keeps content within the container */
+    width: 100%; /* Ensures full width */
+    max-width: 800px; /* Optional: limits the maximum width of the container */
+}
+
+/* Background image styling */
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Centered text styling */
+.centered-text {
+    position: absolute;
+    top: 50%; /* Positions text at the vertical center */
+    left: 50%; /* Positions text at the horizontal center */
+    transform: translate(-50%, -50%); /* Corrects offset caused by 'top' and 'left' */
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em; /* Adjust font size */
+    color: white; /* Makes text visible on top of the image */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+}
+
+.half-white {
+    background-color: white;
+    padding: 20px;
+    text-align: left; /* Change this to 'left' to align content to the left */
+}
+
+/* Aligning the text of "Offers and Promotion" */
+.offer-heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: left; /* Left-aligns the offer heading */
+}
+
+/* Align the description text */
+.offer-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: left; /* Left-aligns the description */
+}
+
+/* Align the "Ongoing Offers" heading */
+.ongoing-offers-heading {
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: left; /* Left-aligns the heading */
+}
+
+/* Align the offer details */
+.offer-details {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left; /* Left-aligns the offer details */
+}
+
+/* Promo code input section */
+.promo-section {
+    margin-top: 30px;
+}
+
+.promo-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: left; /* Left-aligns the input section title */
+}
+
+.promo-input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.promo-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.promo-button:hover {
+    background-color: brown;
+}
