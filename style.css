@@ -1,54 +1,62 @@
-/* General Style */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-/* Container holding the image and the text */
-.container {
-  position: relative;
+/* General styling for the header */
+header {
   text-align: center;
-  color: white;
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow: hidden; 
-  margin: 10px auto;
+  margin: 0; 
 }
 
-/* Centered text */
-.centered {
+/* Container for the image and centered text */
+.container {
+  position: relative; 
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+/* Background image styling */
+.background-image {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  z-index: -1; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} 
+
+/* Centered text styling */
+.centered-text {
   position: absolute;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  padding: 15px 20px; 
-  font-size: 6rem; 
-  font-family: 'Dancing Script', cursive; 
-  font-weight: bold; 
-  text-transform: none; 
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+  text-align: center;
 }
 
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.centered-heading {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  min-height: 10vh; 
+  padding:2px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  line-height: 1.5; 
+  color: #333; 
+  background: #f9f9f9; 
 }
+
 .image-container {
   display: flex;
   justify-content: center; 
   gap: 0; 
-}
-
-.image-part {
-  background-image: url('https://d2ds8yldqp7gxv.cloudfront.net/Blog+Explanatory+Images/Project+Timeline+1.webp');
-  background-size: 300%; 
-  background-repeat: no-repeat;
-  width: 33.33%; 
-  height: 200px; 
 }
 
 .part-1 {
@@ -67,7 +75,7 @@ body {
 .half-gradient {
   background: linear-gradient(to bottom, );
   color: black;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -92,7 +100,7 @@ body {
 }
 
 .grey-bar ul li {
-  margin: 0 15px;
+  margin: 20px;
 }
 
 .grey-bar ul li a {
@@ -120,21 +128,31 @@ body {
   color: #333;
 }
 
+/* Image container styling */
 .image-container {
-  display: flex; 
-  justify-content: left; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  align-items: center; 
   gap: 20px; 
   margin: 20px 0; 
 }
 
+/* General styling for images */
 .resized-image {
-  width: 200px; 
-  height: 300px;
+  width: 250px; 
+  height: 350px;
   object-fit: cover; 
-  border: 2px solid #ccc; 
-  border-radius: 8px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
+/* Hover effect for images */
+.resized-image:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
 
 .content {
   display: none;

@@ -1,7 +1,7 @@
 /* General styling for the header */
 header {
-    text-align: center; /* Centers content inside the header */
-    margin: 50px auto; /* Adds vertical spacing and centers the header */
+    text-align: center;
+    margin: 50px auto; 
   }
   
   /* Container for the image and centered text */
@@ -47,14 +47,18 @@ main h1, main h2 {
     line-height: 1.6; 
   }
   
-
-.half-white {
+  .half-white {
     background-color: #f9f9f9; 
     padding: 20px;
     border-radius: 8px; 
-    max-width: 800px;
-    margin: 0 auto; 
-  }
+    width: contain;
+    margin: auto; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
   
   .header h1 {
     margin: 0;
@@ -63,24 +67,24 @@ main h1, main h2 {
   /* Form grid styling for vertical stacking */
 .form-grid {
     display: flex;
-    flex-direction: column; /* Vertically stacks all fields */
-    gap: 15px; /* Adds space between each form group */
-    align-items: flex-start; /* Left-aligns the form fields and labels */
+    flex-direction: column; 
+    gap: 15px; 
+    align-items: flex-start; 
     margin-left: 10px;
   }
   
   /* Form group styling for proper alignment */
   .form-group {
     display: flex;
-    flex-direction: column; /* Align label and input vertically */
-    width: 100%; /* Ensures fields stretch across the container */
+    flex-direction: column; 
+    width: 100%; 
   }
   
   .form-group label {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 14px;
-    text-align: left; /* Ensures label text is left-aligned */
+    text-align: left; 
   }
   
   .form-group input {
@@ -90,7 +94,7 @@ main h1, main h2 {
     background-color: #f3f3f3;
     outline: none;
     font-size: 14px;
-    width: 100%; /* Makes the input stretch to the form's width */
+    width: 100%; 
     margin-left: 10px;
       
   }
@@ -103,7 +107,7 @@ main h1, main h2 {
   
   /* Submit button styling */
   .submit-button {
-    align-self: flex-start; /* Aligns the button to the left */
+    align-self: flex-start; 
     padding: 10px 20px;
     background-color: brown;
     color: white;
