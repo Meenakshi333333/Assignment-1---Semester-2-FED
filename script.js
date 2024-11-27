@@ -4,17 +4,11 @@ document.getElementById("consultation-form").addEventListener("submit", function
   window.location.href = "index.html.html"; // Redirects to the correct home page
 });
 
-// Function to handle promo code submission
-function submitPromoCode() {
-  const promoCode = document.getElementById("promoCode").value;
-
-  if (promoCode) {
-    // Example logic for promo code handling
-    alert("Promo code entered: " + promoCode);
+function validatePromoCode() {
+  const promoCode = document.getElementById('promoCode').value;
+  if (promoCode === 'DISCOUNT10') { // Example validation
+      window.location.href = 'promo-success.html';
   } else {
-    alert("Please enter a promo code.");
+      alert('Invalid Promo Code');
   }
-
-  // Redirect to the homepage
-  window.location.href = "index.html.html"; // Correct file path
 }

@@ -108,20 +108,18 @@ main h1, main h2 {
     border-color: #4a00e0;
     background-color: white;
   }
-  
+
   /* Submit button styling */
-  .submit-button {
-    align-self: flex-start; 
-    padding: 10px 20px;
-    background-color: brown;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  
+.submit-button {
+  align-self: flex-start; 
+  padding: 15px 30px; /* Matches the .promo-button padding */
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Matches the .promo-button border radius */
+  font-size: 1.2rem; /* Matches the .promo-button font size */
+  cursor: pointer;
+  margin-top: 20px;
+}
+
   

@@ -89,15 +89,16 @@ main {
 }
 
 .promo-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #4CAF50;
+    padding: 15px 30px; 
+    font-size: 1.2rem;  
+    background-color: brown;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
 }
 
+
 .promo-button:hover {
-    background-color: #45a049;
+    background-color: brown;
 }
