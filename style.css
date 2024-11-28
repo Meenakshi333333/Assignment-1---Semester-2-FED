@@ -46,7 +46,7 @@ header {
   text-align: center; 
   min-height: 10vh; 
   padding:2px; 
-  font-size: 1rem; 
+  font-size: 1.5rem; 
   font-weight: bold; 
   line-height: 1.5; 
   color: #333; 
@@ -75,13 +75,13 @@ header {
 .half-gradient {
   background: linear-gradient(to bottom, );
   color: black;
-  padding: 3rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
 .logo h1 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 /* Grey Navigation Bar */
@@ -106,7 +106,7 @@ header {
 .grey-bar ul li a {
   text-decoration: none;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -164,12 +164,10 @@ header {
 
 /* Footer */
 footer {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
-
-
 
 .header h1 {
   margin: 0;
@@ -224,7 +222,7 @@ background-color: brown;
 color: white;
 border: none;
 border-radius: 5px; /* Matches the .promo-button border radius */
-font-size: 1.2rem; /* Matches the .promo-button font size */
+font-size: 1.5rem; /* Matches the .promo-button font size */
 cursor: pointer;
 margin-top: 20px;
 }
@@ -264,12 +262,12 @@ margin-top: 20px;
 }
 
 .offer-heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .ongoing-offers-heading {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -279,13 +277,13 @@ margin-top: 20px;
 }
 
 .promo-section h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
 .promo-input {
   padding: 10px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 300px;
   margin-right: 10px;
   border-radius: 5px;
@@ -294,7 +292,7 @@ margin-top: 20px;
 
 .promo-button {
   padding: 15px 30px; 
-  font-size: 1.2rem;  
+  font-size: 1.5rem;  
   background-color: brown;
   color: white;
   border: none;
@@ -309,13 +307,13 @@ margin-top: 20px;
 /* CONTACT US PAGE */
 /* Input fields and labels */
 label {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-right: 10px;
 }
 
 input {
   padding: 10px;
-  font-size: 1rem;
+  font-size: 3rem;
   width: 100%; /* Input fields fit their container width */
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -325,7 +323,7 @@ input {
 /* Style for the "Return to Home" button */
 .return-home {
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: brown;
   color: white;
   border: none;
