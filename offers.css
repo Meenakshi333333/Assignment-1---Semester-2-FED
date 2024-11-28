@@ -39,17 +39,59 @@ header {
     text-align: center;
 }
 
-/* Container for content */
-.half-white {
-    background-color: white;
-    padding: 20px;
-    text-align: left; /* Align text to the left */
+/* Grey Navigation Bar */
+.grey-bar {
+    background-color: #ccc;
+    padding: 10px 0;
+    text-align: center;
 }
 
-main {
-    max-width: 1200px;
-    margin: 0 auto; /* Center the content */
-    padding: 20px;
+.grey-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.grey-bar ul li {
+    margin: 20px;
+}
+
+.grey-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.grey-bar ul li a:hover {
+    color: #007BFF;
+}
+
+/* Content container styling */
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adds spacing between text and image */
+    margin-top: 20px;
+}
+
+/* Text content */
+.text-content {
+    flex: 2;
+}
+
+/* Image content styling */
+.image-content {
+    flex: 3;
+    text-align: right;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
 }
 
 /* Offer section styling */
@@ -98,7 +140,6 @@ main {
     border-radius: 5px;
 }
 
-
 .promo-button:hover {
-    background-color: brown;
+    background-color: darkred;
 }

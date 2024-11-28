@@ -39,6 +39,36 @@ header {
     text-align: center;
 }
 
+/* Grey Navigation Bar */
+.grey-bar {
+    background-color: #ccc;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .grey-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grey-bar ul li {
+    margin: 20px;
+  }
+  
+  .grey-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .grey-bar ul li a:hover {
+    color: #007BFF;
+  }
+  
 /* Half-white section styling */
 .half-white {
     background-color: white;

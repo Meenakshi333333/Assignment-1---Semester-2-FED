@@ -170,3 +170,201 @@ footer {
 }
 
 
+
+.header h1 {
+  margin: 0;
+}
+
+/* Form grid styling for vertical stacking */
+.form-grid {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+  align-items: flex-start; 
+  margin-left: 10px;
+}
+
+/* Form group styling for proper alignment */
+.form-group {
+  display: flex;
+  flex-direction: column; 
+  width: 100%; 
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left; 
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  outline: none;
+  font-size: 14px;
+  width: 100%; 
+  margin-left: 10px;
+    
+}
+
+/* Hover effect for inputs */
+.form-group input:focus {
+  border-color: #4a00e0;
+  background-color: white;
+}
+
+/* Submit button styling */
+.submit-button {
+align-self: flex-start; 
+padding: 15px 30px; /* Matches the .promo-button padding */
+background-color: brown;
+color: white;
+border: none;
+border-radius: 5px; /* Matches the .promo-button border radius */
+font-size: 1.2rem; /* Matches the .promo-button font size */
+cursor: pointer;
+margin-top: 20px;
+}
+/* BOOK CONSULTATION PAGE */
+
+/* Content container styling */
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Adds spacing between text and image */
+  margin-top: 20px;
+}
+
+/* Text content */
+.text-content {
+  flex: 2;
+}
+
+/* Image content styling */
+.image-content {
+  flex: 1;
+  text-align: center;
+}
+
+.image-content img {
+  width: 100%;
+  max-width: 600px; /* Increased max-width to make the image bigger */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Offer section styling */
+.offer-heading, .offer-description, .ongoing-offers-heading, .offer-details {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.offer-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ongoing-offers-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Promo code section */
+.promo-section {
+  margin-top: 30px;
+}
+
+.promo-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.promo-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.promo-button {
+  padding: 15px 30px; 
+  font-size: 1.2rem;  
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.promo-button:hover {
+  background-color: darkred;
+}
+
+/* CONTACT US PAGE */
+/* Input fields and labels */
+label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%; /* Input fields fit their container width */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the "Return to Home" button */
+.return-home {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.return-home:hover {
+  background-color: darkred;
+}
+
+/* Adjusting contact content layout to make the image bigger */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image-content-contact {
+  flex: 1;
+  text-align: center;
+}
+
+.image-content-contact img {
+  width: 100%;
+  max-width: 600px; /* Increased max-width to make the image bigger */
+  height: auto;
+  border-radius: 10px;
+}
+
+

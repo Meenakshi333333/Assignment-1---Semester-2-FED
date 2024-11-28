@@ -7,7 +7,7 @@
   <!-- Include Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <!-- Link to external CSS -->
-  <link rel="stylesheet" href="offers.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Header with background image and text -->
@@ -21,20 +21,36 @@
       </div>
     </div>
   </header>
+  <!-- Navigation bar -->
+  <div class="grey-bar">
+    <ul>
+      <li><a href="book consultation.html">Book Consultation</a></li> 
+      <li><a href="offers-promotions.html">Offers & Promotions</a></li>
+      <li><a href="contact.html">Contact Us</a></li> 
+    </ul>
+  </div>
   <div class="half-white">
-    <main>
-      <h1 class="offer-heading">Offers and Promotion:</h1>
-      <p class="offer-description">"Explore our exclusive offers and discounts to make your dream space a reality. From seasonal discounts to special packages, there's something for everyone."</p>
-      <h3 class="ongoing-offers-heading">Ongoing offers:</h3>
-      <p class="offer-details">1. "Christmas Sale: 20% Off on Design Packages." Save 20% on all residential design projects booked in January.</p>
-      <p class="offer-details">2. Summer special Discounts at 10% are available.</p>
-      <p class="offer-details">3.Black Friday sale is ongoing!</p>
+    <main class="content-container">
+      <!-- Text content -->
+      <div class="text-content">
+        <h1 class="offer-heading">Offers and Promotion:</h1>
+        <p class="offer-description">"Explore our exclusive offers and discounts to make your dream space a reality. From seasonal discounts to special packages, there's something for everyone."</p>
+        <h3 class="ongoing-offers-heading">Ongoing offers:</h3>
+        <p class="offer-details">1. "Christmas Sale: 20% Off on Design Packages." Save 20% on all residential design projects booked in January.</p>
+        <p class="offer-details">2. Summer special Discounts at 10% are available.</p>
+        <p class="offer-details">3. Black Friday sale is ongoing!</p>
+        
+        <!-- Promo code section -->
+        <div class="promo-section">
+          <h2>Enter Promo Code</h2>
+          <input type="text" id="promoCode" placeholder="Enter promo code here" class="promo-input">
+          <button type="button" class="promo-button" onclick="window.location.href='index.html.html'">Submit</button>
+        </div>
+      </div>
       
-      <!-- Promo code section -->
-      <div class="promo-section">
-        <h2>Enter Promo Code</h2>
-        <input type="text" id="promoCode" placeholder="Enter promo code here" class="promo-input">
-        <button type="button" class="promo-button" onclick="window.location.href='index.html.html'">Submit</button>
+      <!-- Image content -->
+      <div class="image-content">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/267/866/original/vector-special-offer-creative-sale-banner-design.jpg" alt="Promotional Offer Image">
       </div>
     </main>
   </div>
