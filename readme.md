@@ -2,33 +2,36 @@
 Cozybuy Interiors
 
 ## Introduction
-This project is a [brief overview of the website/project]. It is designed to provide [describe the service or function it provides] to users who need [target audience's needs].
+This project is a website designed to provide a seamless and user-friendly platform for users to explore and purchase interior design services and furniture. It is aimed at simplifying the process of choosing and planning home interiors, offering a curated selection of designs, products, and consultation services.
 
-## User Audience Intent and Purpose
 
 ### Who the Website is Catering For
-This website is designed for [target audience]. It caters specifically to [specific group, such as "individuals looking to manage their finances," "e-commerce business owners," or "students learning coding"]. The primary audience is [e.g., young professionals, students, etc.] who seek [specific need or solution].
+This website is designed for homeowners, interior enthusiasts, and businesses seeking professional interior design services and high-quality furniture. It caters specifically to individuals who value aesthetics, functionality, and convenience when designing or furnishing their spaces. The primary audience includes young professionals, families, and businesses aiming to enhance their living or workspace environment.
 
 ### Value that it is Providing to Users
-The website provides [value or service], helping users by [specific benefit]. It aims to [solve a problem, streamline a process, or provide useful information] to [target group]. For example, users can [list the features or services provided].
+The website provides an intuitive platform where users can:
+
+1) Browse through professionally designed room concepts and furniture pieces.
+2) Book consultations with interior design experts.
+3) Access ongoing offers and promotions.
+4) Use an interactive space planner to visualize their ideas.
+This streamlines the interior design process, saving users time and effort while delivering tailored design solutions.
 
 ## Website Overview
 
-The website is designed to [describe what the website does, its functionality, and its purpose]. It includes features such as:
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [etc.]
+The website is designed to offer a comprehensive interior design experience, integrating both visual inspiration and functional tools. It includes features such as:
+
+1) Book Consultations: Book appointments with expert designers.
+2) Ongoing Offers & Promotions: Access special discounts and deals.
+3) Contact Us Page: Easily connect with Cozybuy Interiors for inquiries.
 
 ## External Source Code and Attribution
 
 This project uses the following external source code:
 
-- [Name of the external library/framework]: [Link to source or documentation]
-  - Reason for use: [brief explanation of why this source was used]
-  
-- [Another library/framework]: [Link to source or documentation]
-  - Reason for use: [brief explanation of why this source was used]
+- Google Fonts (Dancing Script): https://fonts.google.com/
+
+Reason for use: To enhance the website's typography with visually appealing font styles.
 
 Please refer to the individual source for more details on its usage.
 
@@ -36,5 +39,5 @@ Please refer to the individual source for more details on its usage.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/Meenakshi333333/FED_S10267061_SENTHILNATHAN-MEENAKSHI_Assg-1_website
 
