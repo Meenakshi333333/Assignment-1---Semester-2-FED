@@ -57,7 +57,7 @@ header {
   justify-content: center; 
   gap: 0; 
 }
-
+/*to add in 3 images in each row*/
 .part-1 {
   background-position: left;
 }
